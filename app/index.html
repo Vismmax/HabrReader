@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="hrApp">
+<head>hr <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>HabrReader</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="bower_components/bootstrap-css-only/css/bootstrap.css"/>
+  <link rel="stylesheet" href="bower_components/bootstrap-css-only/css/bootstrap-theme.css"/>
+  <link rel="stylesheet" href="app.css"/>
+</head>
+<body>
+  <ul class="menu">
+    <li><a href="#/view1">view1</a></li>
+    <li><a href="#/view2">view2</a></li>
+  </ul>
+
+  <div ng-view></div>
+
+  <!--<input ng-model="url" type="url"/>-->
+  <!--<div>Angular seed app: v<span>{{url}}</span></div>-->
+
+  <!--<div ng-include="url"></div>-->
+  <!--<iframe width="100%" ng-src="{{url}}" frameborder="0 " allowfullscreen></iframe>-->
+
+
+  <script src="bower_components/jquery/dist/jquery.js"></script>
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-route/angular-route.js"></script>
+  <!--<script src="bower_components/"></script>-->
+  <!--<script src="bower_components/angular-route/angular-route.js"></script>-->
+  <script src="app.js"></script>
+  <script src="main/main.js"></script>
+  <script src="settings/settings.js"></script>
+</body>
+</html>

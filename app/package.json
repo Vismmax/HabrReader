@@ -1,0 +1,22 @@
+{
+    "name"        : "HabrReader",
+    "version"     : "0.0.1",
+    "author"      : "Vismmax",
+    "main"        : "index.html",
+    "private"     : true,
+    "window"      : {
+        "title": "HabrReader",
+        "icon":"favicon.ico",
+//        "toolbar": false,
+//        "frame": false,
+        "resizable" : true,
+        "fullscreen": false,
+        "width"     : 800,
+//        "height": 630,
+        "min_width": 800
+//        "min_height": 630
+//        "max_width": 1000,
+//        "max_height": 600,
+//        "position": "center",
+    }
+}
